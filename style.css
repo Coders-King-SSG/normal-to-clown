@@ -1,0 +1,36 @@
+body {
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    font-size: 35px!important;
+}
+
+.btn-success:hover {
+    background-color:blue!important;
+}
+
+canvas {
+    background-color: bisque;
+    border: 3px solid black;
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: none;
+    }
+    33.33% {
+        box-shadow: 5px 5px 38px red;
+    }
+    66.66% {
+        box-shadow: 5px 5px 38px yellow;
+    }
+    100% {
+        box-shadow: none;
+    }
+}
